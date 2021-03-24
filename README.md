@@ -2,9 +2,9 @@
 
 # 검색 API어떻게 사용하나요?
 
-대구소프트웨어고등학교라는 키워드로 검색을 할려고 할려면,
+대구소프트웨어고등학교라는 키워드로 검색을 할려고 할려면,
 
-> https://dapi.kakao.com/v2/search/web?query=대구소프트웨어&size=10
+> https://dapi.kakao.com/v2/search/web?query=대구소프트웨어고등학교&size=10
 
 이런식으로 쿼리를 작성하면 된다.
 
