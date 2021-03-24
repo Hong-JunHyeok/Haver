@@ -4,7 +4,7 @@ import './Button.scss';
 interface PropsType {
   children: React.ReactNode;
   customStyle?: object;
-  onClickFunc?: () => {};
+  onClickFunc?: (...args: any) => void;
 }
 const Button = ({ children, customStyle, onClickFunc }: PropsType) => {
   return (
