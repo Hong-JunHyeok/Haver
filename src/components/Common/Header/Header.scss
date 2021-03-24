@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 200px 80%;
   padding: 1rem 0 1rem 0;
-  position: fixed;
+  position: sticky;
   &_title {
     display: flex;
     font-size: 3rem;

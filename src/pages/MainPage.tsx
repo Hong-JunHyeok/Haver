@@ -1,10 +1,10 @@
-import Header from 'components/Header';
 import React from 'react';
+import PageTemplate from 'components/Common/PageTemplate';
 
 const MainPage = () => {
   return (
     <>
-      <Header />
+      <PageTemplate />
     </>
   );
 };

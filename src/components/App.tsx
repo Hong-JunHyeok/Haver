@@ -1,14 +1,14 @@
 import React from 'react';
 import 'styles/reset.scss';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import MainPage from 'pages/MainPage';
+import * as Pages from 'pages';
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-          <MainPage />
+          <Pages.MainPage />
         </Route>
       </Switch>
     </Router>
